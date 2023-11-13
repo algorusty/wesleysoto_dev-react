@@ -1,0 +1,139 @@
+/* main.css */
+
+/* custom font */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/public/fonts/FiraCode-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Define base CSS variables */
+:root {
+  --custom-font-family: 'Fira Code', monospace;
+  
+  /* Light Mode Colors */
+  --color-background: #f5f5f5;
+  --color-on-background: #333;
+  --color-surface: #fff;
+  --color-on-surface: #333;
+  --color-primary: #6200ea;
+  --color-on-primary: white;
+  --color-secondary-container: #E0E0E0;
+  --color-outline: #BDBDBD;
+}
+
+/* Dark Mode Colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #121212;
+    --color-on-background: #fff;
+    --color-surface: #333;
+    --color-on-surface: #fff;
+    --color-primary: #bb86fc;
+    --color-on-primary: #000;
+    --color-secondary-container: #333;
+    --color-outline: #888;
+  }
+}
+
+/* General body styling */
+body {
+  margin: 0;
+  font-family: var(--md-sys-typescale-body1-font-family, --custom-font-family, 'Roboto', 'Helvetica', 'Arial', sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}
+
+/* Navbar styles */
+.navbar {
+  width: 240px;
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  background-color: var(--color-secondary-container);
+}
+
+.icon {
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-family: var(--md-sys-typescale-body1-font-family, --custom-font-family, 'Roboto', 'Arial', sans-serif);
+}
+
+.navbar-divider {
+  border: 0;
+  height: 1px;
+  background-color: var(--color-outline);
+  margin: 8px 0;
+}
+
+/* Content styles */
+.content {
+  margin-left: 240px;
+  padding: 16px;
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}
+
+/* AppBar styles */
+.appBar {
+  width: calc(100% - 240px);
+  margin-left: 240px;
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+/* Drawer styles */
+.drawer {
+  width: 240px;
+  flex-shrink: 0;
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+/* Toolbar offset */
+.toolbar-offset {
+  min-height: 56px; /* Adjust based on your application's toolbar height */
+}
+
+/* Markdown content styles */
+.markdown-content {
+  font-family: var(--md-sys-typescale-body1-font-family, --custom-font-family, 'Roboto', 'Arial', sans-serif);
+  color: var(--color-on-background);
+  overflow: auto;
+  padding: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar,
+  .appBar,
+  .drawer {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+}
