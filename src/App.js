@@ -17,10 +17,6 @@ function App() {
 
   return (
     <div style={{ display: 'flex' }}>
-      <div style={drawerStyle}>
-        <span>Menu</span>
-        <Navbar />
-      </div>
       <main style={mainStyle}>
         <Content />
       </main>

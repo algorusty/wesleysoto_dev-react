@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import * as marked from 'marked';
+import { marked } from 'marked';
+import resumeMarkdown from '../resume.md';
 
 const Content = () => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    fetch('https://wesleysoto-dev.sfo3.cdn.digitaloceanspaces.com/Resume.md')
+    fetch(resumeMarkdown)
       .then((response) => response.text())
-      .then((text) => setMarkdown(marked(text)))
+      .then((text) => setMarkdown(marked.parse(text)))
       .catch((error) => console.error('Error fetching markdown:', error));
   }, []);
 

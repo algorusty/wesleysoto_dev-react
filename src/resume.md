@@ -1,11 +1,10 @@
- # Wesley Soto - Software Engineer; Full-Stack, Machine Learning
+# Wesley Soto - Software Engineer; Automation, Full-Stack, Data Science, Machine Learning
 
 ## Summary
 
 With a 4-year track record in AI-integrated solutioning for Medicare and Retirement claims, I specialize in crafting clean and modular architectures using Python, Node.js, and TypeScript, while also exploring Rust. My work has contributed to a projected impact of $3M+ in claim payouts and improved quality of service at UnitedHealthcare. Prior to this, I led automation processes at Optum, achieving $572K in capital cost savings and $210K in annual recurring costs.
 
 Leveraging Azure and GCP for cloud solutions, I ensure stringent security protocols, fully compliant with HIPAA, PHI, and PII standards. My background in Financial Analysis equips me to be financially savvy in project impacts. Guided by a results-first approach and efficient communication, I'm eager to leverage my diverse skill set to drive high-impact, industry-changing solutions for tough challenges.
-
 
 ## Experience
 
