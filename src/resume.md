@@ -1,4 +1,10 @@
-# Wesley Soto - Software Engineer; Automation, Full-Stack, Data Science, Machine Learning
+# Wesley Soto - Software Engineer - Automation; Full-Stack + Data Science/ML
+
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" height="16"> [GitHub: algorusty](https://github.com/algorusty)
+
+<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="20" height="17">[LinkedIn](https://www.linkedin.com/in/wesley-soto-b9a2217b/)
+
+🧠[Memoyse.me](https://memoyse.me/)
 
 ## Summary
 
