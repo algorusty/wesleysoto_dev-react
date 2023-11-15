@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Content from './components/Content';
 
 function App() {
-  const drawerWidth = 240;
+  const drawerWidth = 0;
 
   const drawerStyle = {
     width: `${drawerWidth}px`
