@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Content from './components/Content';
 
 function App() {
-  const drawerWidth = 0;
+  const drawerWidth = 240;
 
   const drawerStyle = {
     width: `${drawerWidth}px`
@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div style={{ display: 'flex' }}>
+      <Navbar style={drawerStyle} />
       <main style={mainStyle}>
         <Content />
       </main>
