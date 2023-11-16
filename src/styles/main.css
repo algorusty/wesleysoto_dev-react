@@ -49,7 +49,7 @@ body {
 
 /* Navbar styles */
 .navbar {
-  width: 240px;
+  width: 0px;
   background-color: var(--color-surface);
   color: var(--color-on-surface);
 }
