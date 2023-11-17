@@ -4,9 +4,9 @@
 
 <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="20" height="17">[LinkedIn](https://www.linkedin.com/in/wesley-soto-b9a2217b/)
 
-🧠[Memoyse.me](https://memoyse.me/)
+💭[Memoyse.me](https://memoyse.me/)
 
-[The Mind](https://themind.exposed)
+🧠[The Mind](https://themind.exposed)
 
 ## Summary
 
