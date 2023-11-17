@@ -6,6 +6,8 @@
 
 🧠[Memoyse.me](https://memoyse.me/)
 
+[The Mind](https://themind.exposed)
+
 ## Summary
 
 Spearheading by automating the job I started with under the UHG umbrella, I led automation processes at Optum, achieving $572K in capital cost savings and $210K in annual recurring costs. With a 4-year non-linear track record in AI-integrated solutioning at UHG, I specialize in crafting productive architectures using Python, Node.js, TypeScript and Rust. My path of automation has a projected impact of $3M+ in claim payouts and improved quality of service at UHC.
