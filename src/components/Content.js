@@ -13,7 +13,7 @@ const Content = () => {
   }, []);
 
   return (
-    <div className="markdown-content" dangerouslySetInnerHTML={{ __html: markdown }} />
+    <div className="markdown-body" dangerouslySetInnerHTML={{ __html: markdown }} />
   );
 };
 

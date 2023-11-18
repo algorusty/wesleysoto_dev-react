@@ -11,7 +11,7 @@ function App() {
 
 	const mainStyle = {
 		flexGrow: 1,
-		padding: '16px',
+		// padding: '16px',
 		marginLeft: `${drawerWidth}px`,
 	};
 
