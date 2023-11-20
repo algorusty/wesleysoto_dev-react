@@ -38,7 +38,7 @@ Not Completed, Financial Analysis, 2012-2018
 ## Skills
 
 - **Programming:**
-  - Languages: Python, TypeScript, JavaScript, CSS, HTML
+  - Languages: Python, TypeScript, Rust, JavaScript, CSS, HTML
   - Frameworks/Libraries: React.js, Node.js, Express.js, Django, Scikit-Learn, Tensorflow, Keras, Pandas
 
 - **Infrastructure:**
